@@ -1,6 +1,6 @@
 # LaborTrack
 
-**Note:** This repository provides only 5 randomly selected data samples, for the UMAP reviewers, which include all the corresponding data (fixations, pupil data, saccades, blinks, and head movements). We will publish the full dataset upon paper acceptance.
+**Note:** That repository contains five randomly selected participants, including all their available data: head movements, pupil size, fixations, saccades, blinks, and video recordings. We will publish the full dataset upon paper acceptance.
 
 
 ## Data Description
