@@ -65,9 +65,9 @@ def main():
     chunk_size = args.chunk_size
     target_interval = args.target_segment
 
-    ANNOTATION_CODES = {'anamnesis': 0, 'vaginal examination': 1, 'awaiting': 2, 'preparation': 3, 'labor': 4 }
+    ANNOTATION_CODES = {'anamnesis': 1, 'vaginal examination': 2, 'awaiting': 3, 'preparation': 4, 'labor': 5 }
 
-    target_interval_codes = [0, 1, 2, 3, 4] if target_interval == 'ALL' else [ANNOTATION_CODES[target_interval]]
+    target_interval_codes = [1, 2, 3, 4, 5] if target_interval == 'ALL' else [ANNOTATION_CODES[target_interval]]
 
     session_1_data = load_csv_files('output/segmented_data/fixations/session_1')
     session_2_data = load_csv_files('output/segmented_data/fixations/session_2')
