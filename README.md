@@ -155,7 +155,7 @@ timestamp,gyro_x,gyro_y,gyro_z,acc_x,acc_y,acc_z,interval_code
 The output files contain normalized timestamps relative to the start of the segment, and they also contain the segment code (as `interval_code`) with this mapping:
 
 ```python
-{'anamnesis': 0, 'vaginal examination': 1, 'awaiting': 2, 'preparation': 3, 'labor': 4}
+{'anamnesis': 1, 'vaginal examination': 2, 'awaiting': 3, 'preparation': 4, 'labor': 5}
 ```
 
 These files can be used for different purposes, such as training RNN models, extracting features, or creating plots and visualizations.
