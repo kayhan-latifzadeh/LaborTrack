@@ -1,32 +1,7 @@
 # LaborTrack
 
-**Note:** That repository contains five randomly selected participants, including all their available data: head movements, pupil size, fixations, saccades, blinks, and video recordings. We will publish the full dataset upon paper acceptance.
-
 
 ## Data Description
-
-### Video recordings
-
-In `data/video-recordings` you can find screen recordings for each participants.
-
-Example (trimmed from the full video, converted to a GIF):
-
-![Recording Example](video-example.gif)
-
-### Skill scores
-The (comma-delimited) skill score file `data/skill-scores.csv` has 3 columns:
-
-  - `participant_id`: (string) Participant ID
-  - `session_1_score`: (float) The skill score of the first session
-  - `session_2_score`: (float) The skill score of the second session
-
-    Example:
-    ```csv
-    participant_id,session_1_score,session_2_score
-    3ShqB,3.1,3.3
-    4rE3i,2.4,3.5
-    ...
-    ```
 
 Each data eye/head movement data directory (`data/pupil`, `data/fixations`, `data/saccades`, `data/blinks`, `data/head-movements`) contains two subfolders, `session_1` and `session_2`. To find a participant's data, look for the `[participant_id].csv`. For example, if you are looking for the pupil data of participant `3ShqB` in session 2, the file would be located at `data/pupil/session_2/3ShqB.csv`.
 
