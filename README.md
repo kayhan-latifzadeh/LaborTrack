@@ -151,3 +151,9 @@ In this example, the script processes `100` successive timesteps to extract feat
   - `y_pupil.npy`: The labels (binary: `0` for the first session and `1` for the second session)
 
 These files can later be loaded for any classification task (e.g., using SVM, XGBoost) on the handcrafted features.
+
+## Citation
+
+If you use the dataset, please cite us using this bibliographic reference:
+
+* Kayhan Latifzadeh, Luis A. Leiva, Klen Čopič Pucihar, Matjaž Kljun, Iztok Devetak, Lili Steblovnik; **Assessing Medical Training Skills via Eye and Head Movements**, UMAP 2025, https://doi.org/10.1145/3699682.3728330
