@@ -1,6 +1,6 @@
-# LaborTrack
-
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3726302.3730325-blue)](https://doi.org/10.1145/3699682.3728330)
+
+# LaborTrack
 
 ## Data Description
 
@@ -158,3 +158,12 @@ These files can later be loaded for any classification task (e.g., using SVM, XG
 If you use the dataset, please cite us using this bibliographic reference:
 
 * Kayhan Latifzadeh, Luis A. Leiva, Klen Čopič Pucihar, Matjaž Kljun, Iztok Devetak, Lili Steblovnik; **Assessing Medical Training Skills via Eye and Head Movements**, UMAP 2025, https://doi.org/10.1145/3699682.3728330
+
+```bibtex
+@inproceedings{latifzadeh2025assessing,
+  title={Assessing Medical Training Skills via Eye and Head Movements},
+  author = {Latifzadeh, Kayhan and Leiva, Luis A. and Čopič Pucihar, Klen and Kljun, Matjaž and Devetak, Iztok and Steblovnik, Lili}
+  booktitle={Proceedings of the 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP)},
+  year={2025},
+}
+```
