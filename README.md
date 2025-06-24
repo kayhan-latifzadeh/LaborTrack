@@ -157,13 +157,14 @@ These files can later be loaded for any classification task (e.g., using SVM, XG
 
 If you use the dataset, please cite us using this bibliographic reference:
 
-* Kayhan Latifzadeh, Luis A. Leiva, Klen Čopič Pucihar, Matjaž Kljun, Iztok Devetak, Lili Steblovnik; **Assessing Medical Training Skills via Eye and Head Movements**, UMAP 2025, https://doi.org/10.1145/3699682.3728330
+* Latifzadeh, K., Leiva, L. A., Čopič Pucihar, K., Kljun, M., Devetak, I., & Steblovnik, L. (2025, June). Assessing Medical Training Skills via Eye and Head Movements. _In Proceedings of the 33rd ACM Conference on User Modeling_, Adaptation and Personalization (pp. 1-10). https://doi.org/10.1145/3699682.3728330
 
 ```bibtex
 @inproceedings{latifzadeh2025assessing,
   title={Assessing Medical Training Skills via Eye and Head Movements},
-  author = {Latifzadeh, Kayhan and Leiva, Luis A. and Čopič Pucihar, Klen and Kljun, Matjaž and Devetak, Iztok and Steblovnik, Lili}
-  booktitle={Proceedings of the 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP)},
-  year={2025},
+  author={Latifzadeh, Kayhan and Leiva, Luis A and {\v{C}}opi{\v{c}} Pucihar, Klen and Kljun, Matja{\v{z}} and Devetak, Iztok and Steblovnik, Lili},
+  booktitle={Proceedings of the 33rd ACM Conference on User Modeling, Adaptation and Personalization},
+  pages={1--10},
+  year={2025}
 }
 ```
