@@ -1,6 +1,6 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3699682.3728330-blue)](https://doi.org/10.1145/3699682.3728330)
 
-# LaborTrack
+# Assessing Medical Training Skills via Eye and Head Movements
 
 This repository provides the preprocessed dataset and related scripts for the paper. You can download the raw dataset from [here](https://zenodo.org/records/15163456).
 
