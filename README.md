@@ -4,6 +4,8 @@
 
 This repository provides the preprocessed dataset and related scripts for the paper. You can download the raw dataset from [here](https://zenodo.org/records/15163456).
 
+<img src="https://github.com/kayhan-latifzadeh/LaborTrack/blob/main/banner.png?raw=true" alt="Assessing Medical Training Skills via Eye and Head Movements - Experiment Setup">
+
 **Abstract:** We examined eye and head movements to gain insights into skill development in clinical settings. A total of 24 practitioners participated in simulated baby delivery training sessions. We calculated key metrics, including pupillary response rate, fixation duration, or angular velocity. Our findings indicate that eye and head tracking can effectively differentiate between trained and untrained practitioners, particularly during labor tasks. For example, head-related features achieved an F1 score of 0.85 and AUC of 0.86, whereas pupil-related features achieved F1 score of 0.77 and AUC of 0.85. The results lay the groundwork for computational models that support implicit skill assessment and training in clinical settings by using commodity eye-tracking glasses as a complementary device to more traditional evaluation methods such as subjective scores. &#91;[ACM DL](https://doi.org/10.1145/3699682.3728330)&#93; &#91;[arXiv](https://arxiv.org/abs/2507.16819)&#93;
 
 ## Data Description
