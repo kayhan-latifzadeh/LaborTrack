@@ -2,6 +2,10 @@
 
 # LaborTrack
 
+This repository provides the preprocessed dataset and related scripts for the paper. You can download the raw dataset from [here](https://zenodo.org/records/15163456).
+
+**Abstract:** We examined eye and head movements to gain insights into skill development in clinical settings. A total of 24 practitioners participated in simulated baby delivery training sessions. We calculated key metrics, including pupillary response rate, fixation duration, or angular velocity. Our findings indicate that eye and head tracking can effectively differentiate between trained and untrained practitioners, particularly during labor tasks. For example, head-related features achieved an F1 score of 0.85 and AUC of 0.86, whereas pupil-related features achieved F1 score of 0.77 and AUC of 0.85. The results lay the groundwork for computational models that support implicit skill assessment and training in clinical settings by using commodity eye-tracking glasses as a complementary device to more traditional evaluation methods such as subjective scores. &#91;[ACM DL](https://zenodo.org/records/15163456)&#93; &#91;[arXiv](https://arxiv.org/abs/2507.16819)&#93;
+
 ## Data Description
 
 Each data eye/head movement data directory (`data/pupil`, `data/fixations`, `data/saccades`, `data/blinks`, `data/head-movements`) contains two subfolders, `session_1` and `session_2`. To find a participant's data, look for the `[participant_id].csv`. For example, if you are looking for the pupil data of participant `3ShqB` in session 2, the file would be located at `data/pupil/session_2/3ShqB.csv`.
